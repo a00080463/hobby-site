@@ -47,15 +47,14 @@
 			<input type="date" id="dob" name="dob"
 			       autocomplete="bday">
 				   
-		    <p> Topics of Interest:</p>
-			<input type="checkbox" id="roman" name="topics" value="roman">
-			<label for="roman">Roman Archaeology</label>
-			
-			<input type="checkbox" id="greek" name="topics" value="greek">
-			<label for="greek">Ancient Greek</label>
-			
-			<input type="checkbox" id="discoveries" name="topics" value="discoveries">
-			<label for="discoveries">New Archaeological Discoveries</label>
+		    <label for="topics">Topics of Interest:</label>
+
+            <select id="topics" name="topics">
+                <option value="">Choose a topic</option>
+                <option value="roman">Roman Archaeology</option>
+                <option value="greek">Ancient Greece</option>
+                <option value="discoveries">New Archaeological Discoveries</option>
+            </select>
 	   </fieldset>
 	        <button type="submit">Subscribe</button>
 	   </form>	 
